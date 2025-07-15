@@ -40,18 +40,17 @@ A simple PHP & AJAX web application that allows users to sign up for a gym, book
   - JavaScript (AJAX)  
 - **Backend:**  
   - PHP 7+  
-  - MySQL (or MariaDB)  
+  - MySQL  
 - **Server:**  
-  - Apache / Nginx  
+  - Apache 
 
 ---
 
 ## Prerequisites
 
-- PHP 7.2 or higher, with PDO extension  
-- MySQL / MariaDB  
-- Web server (Apache or Nginx)  
-- Composer (optional, if you pull in any libraries)  
+- PHP 7.2 or higher
+- MySQL  
+- Web server (Apache) 
 
 ---
 
