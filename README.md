@@ -60,6 +60,8 @@ A simple PHP & AJAX web application that allows users to sign up for a gym, book
    ```bash
    git clone https://github.com/Antqnio/Web-Design-Project.git
    cd Web-Design-Project
+
+---
    
 ## Configuration
 
@@ -75,6 +77,10 @@ A simple PHP & AJAX web application that allows users to sign up for a gym, book
      ?>
      ```
 
+---
 
+## 📄 License
+
+This project is licensed under the MIT License.
 
 
