@@ -60,3 +60,21 @@ A simple PHP & AJAX web application that allows users to sign up for a gym, book
    ```bash
    git clone https://github.com/Antqnio/Web-Design-Project.git
    cd Web-Design-Project
+   
+## Configuration
+
+1. **Database settings**
+
+   - Open `php/dbutility.php` and set your database credentials as follows:
+     ```php
+     <?php
+     define('DBHOST', 'localhost');
+     define('DBNAME', 'querci_655055');
+     define('DBUSER', 'your_workbench_username');
+     define('DBPASS', 'your_workbench_password');
+     ?>
+     ```
+
+
+
+
