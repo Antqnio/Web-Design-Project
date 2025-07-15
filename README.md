@@ -77,10 +77,4 @@ A simple PHP & AJAX web application that allows users to sign up for a gym, book
      ?>
      ```
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
 
