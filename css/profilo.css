@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  html, body {
+    height: 100%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  }
+  
+  
+  body {
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  
+  body > p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  table {
+    width: auto;
+    background: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px 20px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  table tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  #contenitore-bottoni {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  #contenitore-bottoni button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contenitore-bottoni button:hover {
+    background-color: #218838;
+  }
+
+  
+#logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #dc3545; 
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#logout:hover {
+  background-color: #b52b3a; 
+}
+
+
+#cancella {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;  
+  display: none;
+}
+
+
+#cancella p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+#cancella input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+#cancella input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+#cancella input[type="password"]:invalid {
+  border-color: #e63946;
+  outline: none;
+}
+
+
+#cancella button[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cancella button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+#contenitore-cambio-password {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto; 
+  display: none;
+}
+
+
+#contenitore-cambio-password p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+#contenitore-cambio-password label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+#contenitore-cambio-password input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+#contenitore-cambio-password input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+#contenitore-cambio-password input[type="password"]:invalid {
+  border-color: #e63946;
+  outline: none;
+}
+
+
+#contenitore-cambio-password button[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contenitore-cambio-password button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#profilo-amministratore {
+  color: #9c0800;
+}
+
+
+#messaggio {
+  margin-top: 1rem;
+  color: #dc3545;
+  text-align: center;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+#contenitore-tabella-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+}
+  

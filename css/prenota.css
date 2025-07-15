@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+
+body {
+  padding: 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 1.6;
+}
+
+
+#calendario {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  border-spacing: 0; 
+  margin: 20px 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  table-layout: fixed; 
+}
+
+
+#calendario th,
+#calendario td {
+  white-space: nowrap;   
+  min-width: 120px;       
+  text-align: center;
+  vertical-align: middle; 
+}
+
+
+#calendario th:first-child {
+  width: 120px;
+}
+
+
+#calendario th {
+  padding: 10px;
+  background-color: #007bff; 
+  color: #fff;
+  border: 1px solid #ddd;
+  user-select: none;
+}
+
+
+#calendario td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+#calendario td:hover {
+  background-color: #e9ecef;
+}
+
+
+#calendario td:empty {
+  background-color: #ccc;
+}
+
+
+#messaggio {
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  display: none;
+}
+
+
+#calendario td.disponibile {
+  background-color: #d4edda; 
+  color: #155724; 
+  cursor: pointer;
+}
+
+
+#calendario td.non-disponibile {
+  background-color: #f8d7da; 
+  color: #721c24; 
+  cursor: not-allowed;
+}
+
+
+#calendario td.domenica {
+  background-color: #e2e3e5; 
+  color: #6c757d; 
+  cursor: not-allowed;
+}
+
+
+#calendario td.prenotato {
+  background-color: #cce5ff; 
+  color: #004085;            
+  cursor: pointer;
+}
+#calendario td.prenotato.non-disponibile {
+  cursor: not-allowed;
+}
+
+
+
+
+li.li-domenica {
+  background-color: #e2e3e5; 
+  color: #6c757d;           
+  list-style: none;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+
+li.li-disponibile {
+  background-color: #d4edda; 
+  color: #155724;           
+  list-style: none;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+
+li.li-non-disponibile,
+li.li-non-valido {
+  background-color: #f8d7da; 
+  color: #721c24;           
+  list-style: none;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+
+li.li-prenotato {
+  background-color: #cce5ff; 
+  color: #004085;            
+  list-style: none;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}

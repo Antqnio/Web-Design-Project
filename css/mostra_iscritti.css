@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  html, body {
+    height: 100%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  }
+  
+  
+  body {
+    padding: 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 1.6;
+  }
+  
+  
+  table {
+    width: auto;
+    background: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px 20px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  table tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  #messaggio {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  #carica {
+    padding: 10px 20px;
+    background-color: #28a745; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  #carica:hover {
+    background-color: #218838; 
+  }
+
+.bottone-cambia {
+    background-color: #007bff;  
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.bottone-cambia:hover {
+    background-color: #0056b3;
+}
+
+
+.bottone-cancella {
+    background-color: #dc3545;  
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.bottone-cancella:hover {
+    background-color: #b52b3a;
+}
+
+
+.bottone-mostra {
+  background-color: #fd7e14;  
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bottone-rinnova {
+  background-color: #b713b9;  
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bottone-mostra:hover {
+  background-color: #e96b00; 
+}
+
+
+#rinnova {
+  display: none;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#rinnova form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#rinnova label {
+  font-weight: bold;
+  margin-right: 5px;
+  white-space: nowrap;
+}
+
+#rinnova input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#rinnova button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+#rinnova button:hover {
+  background-color: #0056b3;
+}

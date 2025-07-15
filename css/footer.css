@@ -1,0 +1,15 @@
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: auto;
+    padding: 20px;
+    background: transparent;
+    border-top: none;
+}
+
+
+footer i {
+display: block;
+}
+  
